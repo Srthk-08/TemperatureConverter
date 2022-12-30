@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.container {
+    width: 500px;
+    background-color: rgba(3, 3, 3, 0.8);
+    border-radius: 10px;
+    padding: 50px 25px;
+    box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.8);
+}
+
+.heading {
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(126, 125, 125);
+    padding: 5px 2px;
+}
+
+.box {
+    width: 45%;
+    padding: 35px 0px;
+}
+
+.takevalue,
+#unit {
+    width: 100%;
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(126, 125, 125);
+}
+
+#unit {
+    font-size: 1.25rem;
+    margin-top: 4.5px;
+}
+
+.valuecontainer {
+    margin: 50px 0;
+    margin-top: 30px;
+}
+
+.value {
+    width: 45%;
+    height: 30px;
+    margin: 20px 0;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(126, 125, 125);
+}
+
+.button {
+    width: 45%;
+    height: auto;
+    font: 1.6rem;
+    color: white;
+    background-color: rgb(69, 112, 241);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    margin-left: 125px;
+}
